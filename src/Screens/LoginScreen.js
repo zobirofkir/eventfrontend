@@ -4,7 +4,7 @@ const LoginScreen = () => {
   return (
     <div className='flex justify-center items-center h-screen bg-gray-100 bg-bg-image bg-no-repeat bg-cover'>
       <div className='bg-gray-700 text-white p-8 rounded-lg shadow-lg w-96'>
-        <h2 className='text-2xl font-bold mb-6 text-center'>Login</h2>
+        <h2 className='text-2xl font-bold mb-6 text-center'>Auth</h2>
         <form>
           <div className='mb-4'>
             <label htmlFor='email' className='block text-sm font-medium text-gray-700'>
