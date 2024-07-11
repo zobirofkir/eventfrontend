@@ -13,10 +13,6 @@ const SideBare = ({ isSidebarOpen, toggleSidebar }) => {
     setIsMailBoxOpen(!isMailBoxOpen);
   };
 
-  const toggleCategories = () => {
-    setIsCategoriesOpen(!isCategoriesOpen);
-  };
-
   return (
     <div
       className={`bg-bg-sidebare bg-norepeat bg-cover w-full md:w-64 ${
@@ -25,7 +21,7 @@ const SideBare = ({ isSidebarOpen, toggleSidebar }) => {
     >
       <header className="flex justify-between items-center border-b border-transparent py-4 px-6">
         <div className="text-white text-2xl font-bold flex items-center justify-center align-center">
-          kissTheme
+          Source D'art
         </div>
         <button
           className="text-white border border-white p-2 rounded"
@@ -36,12 +32,12 @@ const SideBare = ({ isSidebarOpen, toggleSidebar }) => {
       </header>
       <div className="border-b border-transparent px-8 py-6">
         <span className="text-center whitespace-nowrap text-white font-bold">
-          Fabian Olivares
+          source d'art
         </span>
       </div>
       <ul className="flex flex-col list-none md:block">
         <li className="border-b border-transparent">
-          <a href="#" className="text-white block px-8 py-4 hover:text-orange">
+          <a href="dashboard" className="text-white block px-8 py-4 hover:text-orange">
             <i className="fa fa-tachometer mr-2" aria-hidden="true"></i>
             Dashboard
           </a>
@@ -53,21 +49,21 @@ const SideBare = ({ isSidebarOpen, toggleSidebar }) => {
           >
             <span>
               <i className="fa fa-user mr-2" aria-hidden="true"></i>
-              Account
+              User Management
             </span>
             <i className={`fa ${isAccountOpen ? 'fa-angle-down' : 'fa-angle-right'}`} aria-hidden="true"></i>
           </button>
           <ul className={`bg-sidebare ${isAccountOpen ? 'block' : 'hidden'}`}>
             <li className="border-b border-transparent">
-              <a href="#" className="text-white block px-8 py-4 hover:text-orange">
+              <a href="create/user" className="text-white block px-8 py-4 hover:text-orange">
                 <i className="fa fa-envelope-o mr-2" aria-hidden="true"></i>
-                Inbox
+                Create User
               </a>
             </li>
             <li className="border-b border-transparent">
-              <a href="#" className="text-white block px-8 py-4 hover:text-orange">
+              <a href="update/user" className="text-white block px-8 py-4 hover:text-orange">
                 <i className="fa fa-envelope-o mr-2" aria-hidden="true"></i>
-                Notifications
+                Update User
               </a>
             </li>
           </ul>
@@ -79,7 +75,7 @@ const SideBare = ({ isSidebarOpen, toggleSidebar }) => {
           >
             <span>
               <i className="fa fa-envelope mr-2" aria-hidden="true"></i>
-              MailBox
+              Event Management
             </span>
             <i
               className={`fa ${isMailBoxOpen ? 'fa-angle-down' : 'fa-angle-right'}`}
@@ -87,39 +83,16 @@ const SideBare = ({ isSidebarOpen, toggleSidebar }) => {
             ></i>
           </button>
           <ul className={`bg-sidebare ${isMailBoxOpen ? 'block' : 'hidden'}`}>
-            <li className="border-b border-transparent">
-              <button
-                className="text-white flex justify-between items-center w-full px-8 py-4 hover:text-orange"
-                onClick={toggleCategories}
-              >
-                <span>
-                  <i className="fa fa-envelope-o mr-2" aria-hidden="true"></i>
-                  Categories
-                </span>
-                <i
-                  className={`fa ${isCategoriesOpen ? 'fa-angle-down' : 'fa-angle-right'}`}
-                  aria-hidden="true"
-                ></i>
-              </button>
-              <ul className={`bg-sidebare ${isCategoriesOpen ? 'block' : 'hidden'}`}>
-                <li className="border-b border-transparent">
-                  <a href="#" className="text-white block px-8 py-4 hover:text-orange">
-                    <i className="fa fa-envelope-o mr-2" aria-hidden="true"></i>
-                    Social
-                  </a>
-                </li>
-                <li className="border-b border-transparent">
-                  <a href="#" className="text-white block px-8 py-4 hover:text-orange">
-                    <i className="fa fa-envelope-o mr-2" aria-hidden="true"></i>
-                    Notifications
-                  </a>
-                </li>
-              </ul>
+          <li className="border-b border-transparent">
+              <a href="create/event" className="text-white block px-8 py-4 hover:text-orange">
+                <i className="fa fa-envelope-o mr-2" aria-hidden="true"></i>
+                Create Event
+              </a>
             </li>
             <li className="border-b border-transparent">
-              <a href="#" className="text-white block px-8 py-4 hover:text-orange">
+              <a href="update/event" className="text-white block px-8 py-4 hover:text-orange">
                 <i className="fa fa-envelope-o mr-2" aria-hidden="true"></i>
-                Inbox
+                Update Event
               </a>
             </li>
           </ul>

@@ -35,11 +35,11 @@ const DashboardScreen = () => {
                 <div className="flex-shrink-0">
                   <img className="w-8 h-8 rounded-full" src="https://sourcedart.org/images/logo.png" alt="Neil image" />
                 </div>
-                <div className="flex-1 min-w-0 flex justify-center">
+                <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                     Neil Sims
                   </p>
-                  <p className="text-sm text-white truncate dark:text-gray-400 mx-20">
+                  <p className="text-sm text-white truncate dark:text-gray-400">
                     email@flowbite.com
                   </p>
                 </div>
@@ -53,11 +53,11 @@ const DashboardScreen = () => {
                 <div className="flex-shrink-0">
                   <img className="w-8 h-8 rounded-full" src="https://sourcedart.org/images/logo.png" alt="Neil image" />
                 </div>
-                <div className="flex-1 min-w-0 flex justify-center">
+                <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                     Bonnie Green
                   </p>
-                  <p className="text-sm text-white truncate dark:text-white mx-20">
+                  <p className="text-sm text-white truncate dark:text-white">
                     email@flowbite.com
                   </p>
                 </div>
@@ -71,11 +71,11 @@ const DashboardScreen = () => {
                 <div className="flex-shrink-0">
                   <img className="w-8 h-8 rounded-full" src="https://sourcedart.org/images/logo.png" alt="Neil image" />
                 </div>
-                <div className="flex-1 min-w-0 flex justify-center">
+                <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                     Michael Gough
                   </p>
-                  <p className="text-sm text-white truncate dark:text-white mx-20">
+                  <p className="text-sm text-white truncate dark:text-white">
                     email@flowbite.com
                   </p>
                 </div>
@@ -89,11 +89,11 @@ const DashboardScreen = () => {
                 <div className="flex-shrink-0">
                   <img className="w-8 h-8 rounded-full" src="https://sourcedart.org/images/logo.png" alt="Neil image" />
                 </div>
-                <div className="flex-1 min-w-0 flex justify-center">
+                <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                     Thomas Lean
                   </p>
-                  <p className="text-sm text-white truncate dark:text-white mx-20">
+                  <p className="text-sm text-white truncate dark:text-white">
                     email@flowbite.com
                   </p>
                 </div>
@@ -107,11 +107,11 @@ const DashboardScreen = () => {
                 <div className="flex-shrink-0">
                   <img className="w-8 h-8 rounded-full" src="https://sourcedart.org/images/logo.png" alt="Neil image" />
                 </div>
-                <div className="flex-1 min-w-0 flex justify-center">
+                <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                     Lana Byrd
                   </p>
-                  <p className="text-sm text-white truncate dark:text-white mx-20">
+                  <p className="text-sm text-white truncate dark:text-white">
                     email@flowbite.com
                   </p>
                 </div>
@@ -132,16 +132,16 @@ const DashboardScreen = () => {
                 <div className="flex-shrink-0">
                   <img className="w-8 h-8 rounded-full" src="https://sourcedart.org/images/logo.png" alt="Neil image" />
                 </div>
-                <div className="flex-1 min-w-0 flex justify-center">
+                <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                     Neil Sims
                   </p>
-                  <p className="text-sm text-white truncate dark:text-white mx-20">
+                  <p className="text-sm text-white truncate dark:text-white">
                     email@flowbite.com
                   </p>
                 </div>
                 <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-                  $320
+                  17/07/2024
                 </div>
               </div>
             </li>
@@ -150,16 +150,16 @@ const DashboardScreen = () => {
                 <div className="flex-shrink-0">
                   <img className="w-8 h-8 rounded-full" src="https://sourcedart.org/images/logo.png" alt="Neil image" />
                 </div>
-                <div className="flex-1 min-w-0 flex justify-center">
+                <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                     Bonnie Green
                   </p>
-                  <p className="text-sm text-white truncate dark:text-white mx-20">
+                  <p className="text-sm text-white truncate dark:text-white">
                     email@flowbite.com
                   </p>
                 </div>
                 <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-                  $3467
+                  17/07/2024
                 </div>
               </div>
             </li>
@@ -168,16 +168,16 @@ const DashboardScreen = () => {
                 <div className="flex-shrink-0">
                   <img className="w-8 h-8 rounded-full" src="https://sourcedart.org/images/logo.png" alt="Neil image" />
                 </div>
-                <div className="flex-1 min-w-0 flex justify-center">
+                <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                     Michael Gough
                   </p>
-                  <p className="text-sm text-white truncate dark:text-white mx-20">
+                  <p className="text-sm text-white truncate dark:text-white">
                     email@flowbite.com
                   </p>
                 </div>
                 <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-                  $67
+                  17/07/2024
                 </div>
               </div>
             </li>
@@ -186,16 +186,16 @@ const DashboardScreen = () => {
                 <div className="flex-shrink-0">
                   <img className="w-8 h-8 rounded-full" src="https://sourcedart.org/images/logo.png" alt="Neil image" />
                 </div>
-                <div className="flex-1 min-w-0 flex justify-center">
+                <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                     Thomas Lean
                   </p>
-                  <p className="text-sm text-white truncate dark:text-white mx-20">
+                  <p className="text-sm text-white truncate dark:text-white">
                     email@flowbite.com
                   </p>
                 </div>
                 <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-                  $2367
+                  17/07/2024
                 </div>
               </div>
             </li>
@@ -204,16 +204,16 @@ const DashboardScreen = () => {
                 <div className="flex-shrink-0">
                   <img className="w-8 h-8 rounded-full" src="https://sourcedart.org/images/logo.png" alt="Neil image" />
                 </div>
-                <div className="flex-1 min-w-0 flex justify-center">
+                <div className="flex-1 min-w-0">
                   <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                     Lana Byrd
                   </p>
-                  <p className="text-sm text-white truncate dark:text-white mx-20">
+                  <p className="text-sm text-white truncate dark:text-white">
                     email@flowbite.com
                   </p>
                 </div>
                 <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-                  $367
+                  17/07/2024
                 </div>
               </div>
             </li>
